@@ -1,4 +1,4 @@
-numbers = [3, 1, 4, 1, 5, 9, 2]
+numbers = ["10", 1, 4, 1, 5, 9, 1]
 
 print(numbers[0])          #3
 print(numbers[-1])         #2
@@ -9,3 +9,5 @@ print(5 in numbers)        #True
 print(7 in numbers)        #False
 print("3" in numbers)      #False
 print(numbers + [6, 5, 3]) #[3, 1, 4, 1, 5, 9, 2, 6, 5, 3]
+print(numbers[2:7])
+print(9 in numbers)
